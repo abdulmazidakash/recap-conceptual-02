@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Shadow</title>
+    <style>
+        .box {
+			border: 5px solid white;
+            width: 200px;
+            height: 200px;
+            background-color: rgba(90, 4, 107, 0.9);
+            box-shadow: 10px 10px 0px 0px rgba(221, 13, 13, 0.5), -10px -10px rgba(13, 221, 75, 0.5), -10px 10px rgba(27, 13, 221, 0.5), 10px -10px rgba(221, 218, 13, 0.5);
+            margin: 50px;
+        }
+		input{
+			height: 40px;
+			width: 300px;
+			outline: none;
+			/* border: 2px solid #000; */
+			border-radius: 25px;
+			padding-left: 20px;
+			box-shadow: 2px 2px 8px teal inset;
+			font-weight: 600;
+		}
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+
+	<input placeholder="something write" type="text" name="" id="">
+</body>
+</html>
