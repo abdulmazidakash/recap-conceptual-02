@@ -23,7 +23,7 @@
 	font-size: 40px;
 }
 .nav-right{
-
+	display: flex;
 }
 .nav-btn{
 	background-color: transparent;
@@ -72,6 +72,8 @@
 }
 .goat-overlay{
 	text-shadow: none;
+	position: absolute; 
+	top: 18%;
 }
 .header-right img{
 	width: 100%;
