@@ -175,3 +175,31 @@
 	bottom: -60px;
 	left: -60px;
 }
+
+/* category container styles here */
+.category-main{
+	border: 2px solid gold;
+	margin: 100px auto;
+	max-width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	justify-content: center;
+}
+.category-child{
+	/* max-width: 103.112px;
+	flex-grow: 1; */
+	min-width: 180px;
+	/* border: 2px solid green; */
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	/* font-size: 10px; */
+
+}
+.category-child:hover{
+	outline: 1px solid violet;
+}
+.category-child img{
+	width: 40px;
+}

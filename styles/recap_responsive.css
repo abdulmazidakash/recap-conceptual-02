@@ -51,4 +51,14 @@
 		width: 100px;
 		height: 120px;
 	}
+
+	/* category container styles here  */
+	.category-child{
+		/* min-width: 100px; */
+		font-size: 10px;
+	}
+	.category-child img{
+		width: 30px;
+	}
+
 }
