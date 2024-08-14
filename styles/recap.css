@@ -178,7 +178,7 @@
 
 /* category container styles here */
 .category-main{
-	border: 2px solid gold;
+	/* border: 2px solid gold; */
 	margin: 100px auto;
 	max-width: 1000px;
 	display: flex;
