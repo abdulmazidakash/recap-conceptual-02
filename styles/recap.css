@@ -148,3 +148,30 @@
 	color: white;
 
 }
+
+/* play container styles here  */
+.play-main{
+	max-width: 1000px;
+	margin: 0 auto 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.play-left{
+	width: 40%;
+}
+.play-right{
+	width: 40%;
+	position: relative;
+}
+.play-right img{
+	width: 100%;
+}
+
+.play-right .beral{
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	bottom: -60px;
+	left: -60px;
+}
