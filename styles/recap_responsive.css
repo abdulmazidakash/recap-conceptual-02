@@ -24,4 +24,16 @@
 	.header-left, .header-right{
 		width: 80%;
 	}
+
+	/* online main styles here  */
+	.online-main{
+		grid-template-areas: 
+		"a"
+		"b"
+		"c"
+		"d"
+		;
+		width: 80%;
+		margin: 50px auto 0px;
+	}
 }
