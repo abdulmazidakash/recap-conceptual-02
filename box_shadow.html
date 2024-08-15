@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Box Shadow</title>
     <style>
+		.parent{
+			display: flex;
+			flex-wrap: wrap;
+			flex-grow: 1;
+			border: 5px solid teal;
+		}
         .box {
 			border: 5px solid white;
             width: 200px;
@@ -27,8 +33,24 @@
     </style>
 </head>
 <body>
+    <div class="parent">
+	
+	<div class="box"></div>
+	<input placeholder="something write" type="text" name="" id="">
+	<div class="box"></div>
+	<input placeholder="something write" type="text" name="" id="">
+    
+	<div class="box"></div>
+	<input placeholder="something write" type="text" name="" id="">
+    
+	<div class="box"></div>
+	<input placeholder="something write" type="text" name="" id="">
     <div class="box"></div>
 
 	<input placeholder="something write" type="text" name="" id="">
+    <div class="box"></div>
+
+	<input placeholder="something write" type="text" name="" id="">
+	</div>
 </body>
 </html>
